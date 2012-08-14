@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'ch8-2' ]
+2 info using npm@1.1.48
+3 info using node@v0.8.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose config file /Users/winterya/.npmrc
+6 verbose config file /usr/local/etc/npmrc
+7 verbose config file /usr/local/lib/node_modules/npm/npmrc
+8 verbose read json /Users/winterya/nodejs/ch8/package.json
+9 verbose from cache /Users/winterya/nodejs/ch8/package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'ch8-2', null ]
+12 silly cache add name=undefined spec="ch8-2" args=["ch8-2",null]
+13 verbose parsed url { pathname: 'ch8-2', path: 'ch8-2', href: 'ch8-2' }
+14 silly lockFile cd401dbd-ch8-2 ch8-2
+15 verbose lock ch8-2 /Users/winterya/.npm/cd401dbd-ch8-2.lock
+16 silly lockFile cd401dbd-ch8-2 ch8-2
+17 verbose addNamed [ 'ch8-2', '' ]
+18 verbose addNamed [ null, '' ]
+19 silly lockFile 37eb56d8-ch8-2 ch8-2@
+20 verbose lock ch8-2@ /Users/winterya/.npm/37eb56d8-ch8-2.lock
+21 silly addNameRange { name: 'ch8-2', range: '', hasData: false }
+22 verbose url raw ch8-2
+23 verbose url resolving [ 'https://registry.npmjs.org/', './ch8-2' ]
+24 verbose url resolved https://registry.npmjs.org/ch8-2
+25 info retry registry request attempt 1 at 20:44:33
+26 http GET https://registry.npmjs.org/ch8-2
+27 http 200 https://registry.npmjs.org/ch8-2
+28 silly registry.get cb [ 200,
+28 silly registry.get   { vary: 'Accept',
+28 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+28 silly registry.get     etag: '"EIT17IO6JU191SY77VJP9RCH9"',
+28 silly registry.get     date: 'Tue, 14 Aug 2012 12:44:35 GMT',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'content-length': '926' } ]
+29 silly addNameRange number 2 { name: 'ch8-2', range: '', hasData: true }
+30 silly addNameRange versions [ 'ch8-2', [ '0.0.1' ] ]
+31 verbose addNamed [ 'ch8-2', '0.0.1' ]
+32 verbose addNamed [ '0.0.1', '0.0.1' ]
+33 silly lockFile 9a0c0607-ch8-2-0-0-1 ch8-2@0.0.1
+34 verbose lock ch8-2@0.0.1 /Users/winterya/.npm/9a0c0607-ch8-2-0-0-1.lock
+35 verbose read json /Users/winterya/.npm/ch8-2/0.0.1/package/package.json
+36 silly lockFile 9a0c0607-ch8-2-0-0-1 ch8-2@0.0.1
+37 silly lockFile 37eb56d8-ch8-2 ch8-2@
+38 silly resolved [ { name: 'ch8-2',
+38 silly resolved     version: '0.0.1',
+38 silly resolved     description: 'CHAPTER8',
+38 silly resolved     main: 'build/Release/8-2.node',
+38 silly resolved     scripts: { install: 'node-waf configure build' },
+38 silly resolved     repository: { type: 'git', url: 'https://github.com/superwinter/nodejs' },
+38 silly resolved     keywords: [ 'CHAPTER8' ],
+38 silly resolved     author: { name: 'winter' },
+38 silly resolved     license: 'BSD',
+38 silly resolved     readme: 'Extending Node\n',
+38 silly resolved     _id: 'ch8-2@0.0.1',
+38 silly resolved     _from: 'ch8-2' } ]
+39 info install ch8-2@0.0.1 into /Users/winterya/nodejs/ch8
+40 info installOne ch8-2@0.0.1
+41 verbose from cache /Users/winterya/.npm/ch8-2/0.0.1/package/package.json
+42 info /Users/winterya/nodejs/ch8/node_modules/ch8-2 unbuild
+43 verbose read json /Users/winterya/nodejs/ch8/node_modules/ch8-2/package.json
+44 verbose tar unpack /Users/winterya/.npm/ch8-2/0.0.1/package.tgz
+45 silly lockFile 76eb276a-ya-nodejs-ch8-node-modules-ch8-2 /Users/winterya/nodejs/ch8/node_modules/ch8-2
+46 verbose lock /Users/winterya/nodejs/ch8/node_modules/ch8-2 /Users/winterya/.npm/76eb276a-ya-nodejs-ch8-node-modules-ch8-2.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry 8-2.js
+51 silly gunzTarPerm extractEntry 8-2.cc
+52 silly gunzTarPerm extractEntry binding.gyp
+53 silly gunzTarPerm extractEntry build/8-2.target.mk
+54 silly gunzTarPerm extractEntry build/binding.Makefile
+55 silly gunzTarPerm extractEntry build/config.gypi
+56 silly gunzTarPerm extractEntry build/gyp-mac-tool
+57 silly gunzTarPerm extractEntry build/Makefile
+58 silly gunzTarPerm extractEntry build/Release/.deps/Release/8-2.node.d
+59 silly gunzTarPerm extractEntry build/Release/.deps/Release/obj.target/8-2/8-2.o.d
+60 silly gunzTarPerm extractEntry build/Release/8-2.node
+61 silly gunzTarPerm extractEntry build/Release/linker.lock
+62 silly gunzTarPerm extractEntry build/Release/obj.target/8-2/8-2.o
+63 verbose read json /Users/winterya/nodejs/ch8/node_modules/ch8-2/package.json
+64 silly lockFile 76eb276a-ya-nodejs-ch8-node-modules-ch8-2 /Users/winterya/nodejs/ch8/node_modules/ch8-2
+65 info preinstall ch8-2@0.0.1
+66 verbose from cache /Users/winterya/nodejs/ch8/node_modules/ch8-2/package.json
+67 verbose readDependencies using package.json deps
+68 verbose from cache /Users/winterya/nodejs/ch8/node_modules/ch8-2/package.json
+69 verbose readDependencies using package.json deps
+70 silly resolved []
+71 verbose about to build /Users/winterya/nodejs/ch8/node_modules/ch8-2
+72 info build /Users/winterya/nodejs/ch8/node_modules/ch8-2
+73 verbose from cache /Users/winterya/nodejs/ch8/node_modules/ch8-2/package.json
+74 verbose linkStuff [ false, false, false, '/Users/winterya/nodejs/ch8/node_modules' ]
+75 info linkStuff ch8-2@0.0.1
+76 verbose linkBins ch8-2@0.0.1
+77 verbose linkMans ch8-2@0.0.1
+78 verbose rebuildBundles ch8-2@0.0.1
+79 info install ch8-2@0.0.1
+80 verbose unsafe-perm in lifecycle true
+81 silly exec sh "-c" "node-waf configure build"
+82 silly sh,-c,node-waf configure build,/Users/winterya/nodejs/ch8/node_modules/ch8-2 spawning
+83 info ch8-2@0.0.1 Failed to exec install script
+84 info /Users/winterya/nodejs/ch8/node_modules/ch8-2 unbuild
+85 verbose from cache /Users/winterya/nodejs/ch8/node_modules/ch8-2/package.json
+86 info preuninstall ch8-2@0.0.1
+87 info uninstall ch8-2@0.0.1
+88 verbose true,/Users/winterya/nodejs/ch8/node_modules,/Users/winterya/nodejs/ch8/node_modules unbuild ch8-2@0.0.1
+89 info postuninstall ch8-2@0.0.1
+90 error ch8-2@0.0.1 install: `node-waf configure build`
+90 error `sh "-c" "node-waf configure build"` failed with 1
+91 error Failed at the ch8-2@0.0.1 install script.
+91 error This is most likely a problem with the ch8-2 package,
+91 error not with npm itself.
+91 error Tell the author that this fails on your system:
+91 error     node-waf configure build
+91 error You can get their info via:
+91 error     npm owner ls ch8-2
+91 error There is likely additional logging output above.
+92 error System Darwin 11.3.0
+93 error command "node" "/usr/local/bin/npm" "install" "ch8-2"
+94 error cwd /Users/winterya/nodejs/ch8
+95 error node -v v0.8.4
+96 error npm -v 1.1.48
+97 error code ELIFECYCLE
+98 verbose exit [ 1, true ]
